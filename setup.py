@@ -50,7 +50,7 @@ setup(
         'python-dateutil==2.5.3',
         'numpy==1.11.2',
         'geonode==2.5.9',
-        'Django==1.8',
+        'Django>=1.8,<2.0.0',
     ],
     include_package_data=True,
     zip_safe=False,
