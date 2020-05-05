@@ -49,7 +49,7 @@ setup(
         'django-tastypie==0.12.2',
         'python-dateutil==2.5.3',
         'numpy==1.11.2',
-        'geonode==2.5.9',
+        'geonode<3.0.0',
         'Django>=1.8,<2.0.0',
     ],
     include_package_data=True,
